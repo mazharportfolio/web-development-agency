@@ -237,3 +237,69 @@ section p {
         grid-template-columns: 1fr;
     }
 }
+/* Professional Contact Section */
+.contact {
+    background: #0b1120;
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #00d4ff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto 0;
+    background: #151f33;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid #26364e;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    background: #0b1120;
+    color: white;
+    border: 1px solid #34445e;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #00d4ff;
+}
+
+.contact button {
+    padding: 15px;
+    background: #00d4ff;
+    color: #06111f;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: white;
+}
+
+@media(max-width:600px) {
+    .contact-container {
+        padding: 20px;
+    }
+}
