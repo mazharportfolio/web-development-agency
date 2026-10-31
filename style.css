@@ -599,6 +599,69 @@ section p {
     transform: translateY(-3px);
 }
 
+/* PROFESSIONAL SERVICES SECTION */
+
+.services {
+    padding: 90px 20px;
+    background: #0b1425;
+    text-align: center;
+}
+
+.services h2 {
+    color: #ffffff;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.services .section-subtitle {
+    color: #b8c5d6;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.service-container {
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service-card {
+    flex: 1 1 280px;
+    max-width: 350px;
+    padding: 35px 25px;
+    background: #14243b;
+    border: 1px solid #263e5d;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #00d4ff;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.12);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: #00d4ff;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #b8c5d6;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
     .team-photo {
         height: 280px;
     }
