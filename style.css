@@ -746,7 +746,97 @@ section p {
         width: 100%;
         max-width: 340px;
     }
+/* PROFESSIONAL PROJECTS SECTION */
 
+.projects {
+    padding: 90px 20px;
+    background: #0b1425;
+    text-align: center;
+}
+
+.projects h2 {
+    color: #ffffff;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.projects h2 span {
+    color: #00d4ff;
+}
+
+.projects .section-subtitle {
+    color: #b8c5d6;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.project-container {
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    flex: 1 1 280px;
+    max-width: 350px;
+    background: #14243b;
+    border: 1px solid #263e5d;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #00d4ff;
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.12);
+}
+
+.project-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    color: #00d4ff;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.project-info p {
+    color: #b8c5d6;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 7px 14px;
+    background: #073c50;
+    color: #00d4ff;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
     .team-photo {
         height: 280px;
     }
