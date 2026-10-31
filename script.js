@@ -1,7 +1,27 @@
-console.log("Welcome to WebNova Agency!");
+// WEBNOVA SCROLL ANIMATIONS
 
-const button = document.querySelector(".btn");
+const sections = document.querySelectorAll("section");
 
-button.addEventListener("click", function() {
-    console.log("Get Started button clicked!");
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+        if (entry.isIntersecting) {
+
+            entry.target.classList.add("show");
+
+        }
+
+    });
+
+}, {
+    threshold: 0.15
+});
+
+sections.forEach((section) => {
+
+    section.classList.add("hidden");
+
+    observer.observe(section);
+
 });
