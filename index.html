@@ -117,10 +117,31 @@
 
 </section>   
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Let's build something great together.</p>
-    </section>
+   <section id="contact" class="contact">
+    <h2>Let's Work Together</h2>
+    <p class="section-subtitle">
+        Have a project in mind? Contact our team.
+    </p>
+
+    <div class="contact-container">
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <input type="text" name="name"
+                placeholder="Your Name" required>
+
+            <input type="email" name="email"
+                placeholder="Your Email" required>
+
+            <input type="text" name="subject"
+                placeholder="Subject" required>
+
+            <textarea name="message"
+                placeholder="Tell us about your project"
+                rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
 
     <script src="script.js"></script>
 </body>
