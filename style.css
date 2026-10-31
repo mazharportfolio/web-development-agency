@@ -1126,6 +1126,32 @@ html {
 section {
     scroll-margin-top: 90px;
 }
+/* SCROLL REVEAL ANIMATION */
+
+section.hidden {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ACCESSIBILITY */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    section.hidden,
+    section.show {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
     .team-photo {
         height: 280px;
     }
