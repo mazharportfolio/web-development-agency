@@ -104,3 +104,63 @@ section p {
         font-size: 32px;
     }
 }
+/* PROFESSIONAL SERVICES DESIGN */
+
+.services {
+    background: #0b1120;
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    color: #00d4ff;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #aab8cc;
+    margin-bottom: 45px;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background: #151f33;
+    padding: 35px 25px;
+    border: 1px solid #26364e;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #00d4ff;
+    box-shadow: 0 10px 30px rgba(0,212,255,0.15);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #aab8cc;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+}
