@@ -837,6 +837,114 @@ section p {
         max-width: 350px;
     }
 }
+
+/* PROFESSIONAL CONTACT SECTION */
+
+.contact {
+    padding: 90px 20px;
+    background: #101d32;
+    text-align: center;
+}
+
+.contact-heading {
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.contact-label {
+    color: #00d4ff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.contact-heading h2 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 18px 0;
+}
+
+.contact-heading h2 span {
+    color: #00d4ff;
+}
+
+.contact-heading p {
+    color: #b8c5d6;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.contact-container {
+    max-width: 750px;
+    margin: auto;
+    padding: 35px;
+    background: #14243b;
+    border: 1px solid #263e5d;
+    border-radius: 18px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact .input-row {
+    display: flex;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    background: #0b1425;
+    border: 1px solid #344966;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #00d4ff;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact button {
+    padding: 15px;
+    background: #00d4ff;
+    color: #08111f;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .contact .input-row {
+        flex-direction: column;
+    }
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-heading h2 {
+        font-size: 32px;
+    }
+}
     .team-photo {
         height: 280px;
     }
