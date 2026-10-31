@@ -1117,6 +1117,15 @@ section p {
         font-size: 13px;
     }
 }
+/* SMOOTH SCROLLING */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 90px;
+}
     .team-photo {
         height: 280px;
     }
