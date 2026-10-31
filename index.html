@@ -116,31 +116,42 @@
     </div>
 
 </section>   
+<section id="contact" class="contact">
 
-   <section id="contact" class="contact">
-    <h2>Let's Work Together</h2>
-    <p class="section-subtitle">
-        Have a project in mind? Contact our team.
-    </p>
+    <div class="contact-heading">
+        <span class="contact-label">✈ Contact Us</span>
+
+        <h2>Let's Work <span>Together</span></h2>
+
+        <p>Have a project in mind? Contact our team.</p>
+    </div>
 
     <div class="contact-container">
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <input type="text" name="name"
-                placeholder="Your Name" required>
+        <form action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST">
 
-            <input type="email" name="email"
-                placeholder="Your Email" required>
+            <div class="input-row">
+                <input type="text" name="name"
+                    placeholder="Your Name" required>
+
+                <input type="email" name="email"
+                    placeholder="Your Email" required>
+            </div>
 
             <input type="text" name="subject"
                 placeholder="Subject" required>
 
             <textarea name="message"
-                placeholder="Tell us about your project"
+                placeholder="Tell us about your project..."
                 rows="5" required></textarea>
 
-            <button type="submit">Send Message</button>
+            <button type="submit">
+                ✈ Send Message
+            </button>
+
         </form>
     </div>
+
 </section>
 
     <script src="script.js"></script>
