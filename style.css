@@ -590,17 +590,10 @@ section p {
 }
 
 .about .btn {
-    display: inline-block;
-    margin-top: 35px;
-    padding: 13px 28px;
-    background: #00d4ff;
-    color: #08111f;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: 0.3s;
+    margin-top: 50px !important;
+    position: relative;
+    top: 15px;
 }
-
 .about .btn:hover {
     background: #ffffff;
     transform: translateY(-3px);
