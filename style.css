@@ -1042,6 +1042,81 @@ section p {
         text-align: center;
     }
 }
+
+/* PROFESSIONAL NAVIGATION BAR */
+
+.header {
+    width: 100%;
+    padding: 20px 7%;
+    background: #080f1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #263e5d;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.logo span {
+    color: #00d4ff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.navbar a {
+    color: #c3d0e0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00d4ff;
+}
+
+.navbar .nav-contact {
+    padding: 11px 20px;
+    background: #00d4ff;
+    color: #08111f;
+    border-radius: 7px;
+}
+
+.navbar .nav-contact:hover {
+    background: #ffffff;
+    color: #08111f;
+}
+
+/* MOBILE NAVIGATION */
+
+@media (max-width: 700px) {
+    .header {
+        padding: 18px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+}
     .team-photo {
         height: 280px;
     }
