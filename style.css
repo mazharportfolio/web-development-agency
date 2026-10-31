@@ -441,7 +441,7 @@ section p {
 
 @media(max-width: 768px) {
     .footer-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
         gap: 35px;
     }
 
