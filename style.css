@@ -559,6 +559,53 @@ section p {
         max-width: 340px;
     }
 
+    /* ABOUT SECTION */
+
+.about {
+    padding: 90px 20px;
+    background: #101d32;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.about h2 {
+    font-size: 38px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.about h2 span {
+    color: #00d4ff;
+}
+
+.about p {
+    color: #b8c5d6;
+    font-size: 17px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 28px;
+    background: #00d4ff;
+    color: #08111f;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.about .btn:hover {
+    background: #ffffff;
+    transform: translateY(-3px);
+}
+
     .team-photo {
         height: 280px;
     }
