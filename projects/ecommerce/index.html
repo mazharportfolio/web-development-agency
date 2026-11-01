@@ -3,117 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ShopNova modern e-commerce website demo by WebNova.">
-    <title>ShopNova | Online Store</title>
+    <meta name="description" content="ShopNova - Modern online shopping website demo.">
+    <title>ShopNova | Modern Online Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
-       
-
 <body>
 
     <!-- HEADER -->
     <header class="header">
-        <a href="#home" class="logo">Shop<span>Nova</span></a>
+        <a href="#home" class="logo">Shop<span>Nova.</span></a>
 
         <nav class="navbar">
             <a href="#home">Home</a>
-            <a href="#shop">Shop</a>
             <a href="#categories">Categories</a>
+            <a href="#shop">Shop</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
         </nav>
+
+        <a href="#shop" class="header-btn">Explore Store</a>
     </header>
 
     <!-- HERO -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <p class="eyebrow">WELCOME TO SHOPNOVA</p>
-            <h1>Discover Your <span>Style</span></h1>
-            <p>Explore a collection of modern products
-               designed for your everyday lifestyle.</p>
-            <a href="#shop" class="btn">Shop Now</a>
+            <span class="hero-label">NEW COLLECTION 2026</span>
+            <h1>Shopping Made <span>Simple.</span></h1>
+            <p>
+                Discover modern products, explore new styles
+                and find something special for your everyday life.
+            </p>
+            <a href="#shop" class="primary-btn">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="feature">
+            <h3>Quality Products</h3>
+            <p>Carefully selected collections</p>
+        </div>
+
+        <div class="feature">
+            <h3>Modern Designs</h3>
+            <p>Products for everyday lifestyle</p>
+        </div>
+
+        <div class="feature">
+            <h3>Easy Shopping</h3>
+            <p>A clean and simple store experience</p>
         </div>
     </section>
 
     <!-- CATEGORIES -->
-    <section class="categories" id="categories">
-        <h2>Shop By <span>Category</span></h2>
+    <section class="categories section" id="categories">
+        <div class="section-heading">
+            <span>EXPLORE COLLECTIONS</span>
+            <h2>Shop By Category</h2>
+        </div>
 
-        <div class="category-container">
-            <div class="category-card">Fashion</div>
-            <div class="category-card">Accessories</div>
-            <div class="category-card">Lifestyle</div>
+        <div class="category-grid">
+            <a href="#shop" class="category-card">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=700" alt="Fashion collection">
+                <h3>Fashion</h3>
+            </a>
+
+            <a href="#shop" class="category-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700" alt="Accessories collection">
+                <h3>Accessories</h3>
+            </a>
+
+            <a href="#shop" class="category-card">
+                <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=700" alt="Lifestyle collection">
+                <h3>Lifestyle</h3>
+            </a>
         </div>
     </section>
 
     <!-- PRODUCTS -->
-    <section class="shop" id="shop">
-        <h2>Featured <span>Products</span></h2>
-        <p class="subtitle">Explore our latest collection.</p>
+    <section class="shop section" id="shop">
+        <div class="section-heading">
+            <span>OUR COLLECTION</span>
+            <h2>Featured Products</h2>
+            <p>Discover some of our popular products.</p>
+        </div>
 
-        <div class="product-container">
+        <div class="product-grid">
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700" alt="Red sneakers">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700" alt="Red sneakers">
+                    <span class="product-label">POPULAR</span>
+                </div>
                 <div class="product-info">
+                    <p class="product-category">Fashion</p>
                     <h3>Classic Sneakers</h3>
                     <p class="price">Rs. 4,500</p>
                     <a href="#contact" class="product-btn">Enquire Now</a>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700" alt="Modern backpack">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=700" alt="Modern backpack">
+                    <span class="product-label">NEW</span>
+                </div>
                 <div class="product-info">
+                    <p class="product-category">Accessories</p>
                     <h3>Modern Backpack</h3>
                     <p class="price">Rs. 3,200</p>
                     <a href="#contact" class="product-btn">Enquire Now</a>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700" alt="Modern wristwatch">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700" alt="Classic wristwatch">
+                </div>
                 <div class="product-info">
+                    <p class="product-category">Accessories</p>
                     <h3>Classic Watch</h3>
                     <p class="price">Rs. 5,000</p>
                     <a href="#contact" class="product-btn">Enquire Now</a>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700" alt="Stylish sunglasses">
+            <article class="product-card">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=700" alt="Stylish sunglasses">
+                </div>
                 <div class="product-info">
+                    <p class="product-category">Fashion</p>
                     <h3>Stylish Sunglasses</h3>
                     <p class="price">Rs. 2,000</p>
                     <a href="#contact" class="product-btn">Enquire Now</a>
                 </div>
-            </div>
+            </article>
 
         </div>
-    </section>
 
-    <!-- ABOUT -->
-    <section class="about" id="about">
-        <h2>About <span>ShopNova</span></h2>
-        <p>
-            ShopNova is a modern e-commerce website concept
-            created to showcase products with a clean,
-            attractive and user-friendly design.
+        <p class="demo-note">
+            Demo prices are for design purposes only. No real purchases are processed.
         </p>
     </section>
 
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="about-content">
+            <span>ABOUT OUR STORE</span>
+            <h2>Welcome to <span>ShopNova</span></h2>
+            <p>
+                ShopNova is a modern e-commerce website concept
+                created by WebNova Digital Agency. Our goal is to
+                demonstrate a clean, responsive and user-friendly
+                online shopping experience.
+            </p>
+            <a href="#shop" class="primary-btn">Discover More</a>
+        </div>
+    </section>
+
     <!-- CONTACT -->
-    <section class="contact" id="contact">
-        <h2>Get In <span>Touch</span></h2>
-        <p>Interested in a product? Contact us for more information.</p>
-        <a href="mailto:demo@example.com" class="btn">Email Us</a>
+    <section class="contact section" id="contact">
+        <span>HAVE A QUESTION?</span>
+        <h2>Let's Talk</h2>
+        <p>Contact us to learn more about this demo store.</p>
+        <a href="mailto:demo@example.com" class="primary-btn">Contact Us</a>
     </section>
 
     <!-- FOOTER -->
-    <footer>
-        <p>© 2026 ShopNova. Demo Website by WebNova.</p>
+    <footer class="footer">
+        <a href="#home" class="logo">Shop<span>Nova.</span></a>
+        <p>© 2026 ShopNova. Demo Website by WebNova Digital Agency.</p>
     </footer>
-    <script src="script.js"></script>
 
 </body>
 </html>
